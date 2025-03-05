@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2da3da;
+}
+
+.audio-player {
+  background-color: #d4d41e;
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(30, 155, 208, 0.1);
+  width: 900px;
+  text-align: center;
+  border: solid;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.progressBar, .volumeControl {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.playlist {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.playlist-tracks {
+  list-style-type: none;
+  padding: 0;
+}
+
+.playlist-tracks li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.playlist-tracks li:hover {
+  background-color: #f0f0f0;
+}
